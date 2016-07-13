@@ -1,8 +1,8 @@
 # check-all-checkboxes
 
-Use this to check all checkboxes on pages that do not provide this functionalit
-y.
+Use this to check all checkboxes on pages that do not provide this functionality.
 
+```javascript
 var inputs = document.getElementsByTagName('input');
 
 for (var i=0; i < inputs.length; i++) {
@@ -10,3 +10,4 @@ for (var i=0; i < inputs.length; i++) {
 	inputs[i].checked = true;
     }
 }
+```
